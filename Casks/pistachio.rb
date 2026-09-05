@@ -3,7 +3,7 @@ cask "pistachio" do
   name "pistachio"
   desc "pistachio is a declarative schema management tool for PostgreSQL."
   homepage "https://github.com/winebarrel/pistachio"
-  version "1.44.0"
+  version "1.44.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pistachio" do
   on_macos do
     on_intel do
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_darwin_amd64.tar.gz"
-      sha256 "810a7954abe1c1475ce046a98cf636c8c852b5cee398b39cea83d8ac288373e0"
+      sha256 "bdddfb70bb5543915012906dbd44d8d7500dc4df75ad90a5eb3e6627cba80df3"
     end
     on_arm do
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_darwin_arm64.tar.gz"
-      sha256 "1e9b13e83b4100c5226ae87788cecc67cfd23be85054559d30faf06c19928ed2"
+      sha256 "b6a64e69bc2302295811d3846fd6a7679e4781041b0933c16bf41c513153a4dd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_linux_amd64.tar.gz"
-      sha256 "d7def049292405701b66587d4bf1462ee6bb112c37f2d03676eaef49f27f5787"
+      sha256 "0b3ed2ed18129c616d0578ffb1b5b67da5b19baa672e0474c1a1fecf6121709c"
     end
     on_arm do
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_linux_arm64.tar.gz"
-      sha256 "0dfb24a01ec3e61e65d15d7e7fac5e6b33e83412609cabfba43bc9d154d5a019"
+      sha256 "17c6b0ca4c6b0e91527cb01e33e23ff8e8b92584366fdb8e7eedc8088b687a19"
     end
   end
 
