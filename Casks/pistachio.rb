@@ -6,25 +6,25 @@ cask "pistachio" do
     end
   end
 
-  version "1.65.0"
+  version "1.66.0"
 
   on_macos do
     on_arm do
-      sha256 "9e64df10a27a1586c1cd4562c9ba650fbf9a34f3ac090b3c90a97e3c31d04f7f"
+      sha256 "fe561c2c7942c6a5642a1119a533197a7930da992d1b3b0d79ea518c19a71747"
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0498fd13d8d27c2a2078f4d1f51fc0c5238330ab8744151937eaa6fabbb7b9de"
+      sha256 "e4e562014cbec1cb90d6143891fa188c2feed9e708e1d4779c0869bec696377c"
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "690cae204e3f690bec72796712726437845b6aad44a2f6b7cfd3ac8a4e6eecd5"
+      sha256 "63168c699fa8a30e4cbffb33335aa7ed0114cef7c14f107bcd045e81facde0e6"
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "08875ae263a8facc117e10db2e55670de013ff338e675fbc5c3dd4a90c475d36"
+      sha256 "339d9d813ee14aeaa5ac6d49ae89c65a053e40a6509c3904f76c928a9dbad36f"
       url "https://github.com/winebarrel/pistachio/releases/download/v#{version}/pistachio_#{version}_linux_amd64.tar.gz"
     end
   end
